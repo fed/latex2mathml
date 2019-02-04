@@ -1,0 +1,12 @@
+{
+  "name": "latex2mathml",
+  "version": "0.0.0",
+  "description": "LaTeX to MathML converter",
+  "main": "index.js",
+  "repository": "git@github.com:fknussel/latex2mathml.git",
+  "author": "Federico Knüssel <fknussel@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mathjax-node": "^2.1.1"
+  }
+}
