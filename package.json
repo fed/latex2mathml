@@ -6,7 +6,13 @@
   "repository": "git@github.com:fknussel/latex2mathml.git",
   "author": "Federico Knüssel <fknussel@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
   "dependencies": {
     "mathjax-node": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
   }
 }
