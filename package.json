@@ -7,12 +7,14 @@
   "author": "Federico Knüssel <fknussel@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon ./index.js"
+    "start": "nodemon ./example.js",
+    "test": "ava"
   },
   "dependencies": {
     "mathjax-node": "^2.1.1"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9"
+    "ava": "^2.3.0",
+    "nodemon": "^1.19.2"
   }
 }
